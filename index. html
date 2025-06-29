@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cricket Fan Web Page | Latest Matches & Updates</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #e8f0fe;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #023e8a;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+        header img {
+            height: 50px;
+        }
+        .banner {
+            text-align: center;
+            margin: 20px;
+        }
+        .banner img {
+            width: 90%;
+            max-width: 850px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .content {
+            padding: 20px;
+        }
+        h2 {
+            color: #023e8a;
+        }
+        ul {
+            list-style-type: square;
+            line-height: 1.6;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            background-color: #023e8a;
+            color: white;
+            padding: 14px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🏏 Cricket Fan Page</h1>
+    <img src="images/logo.png" alt="Cricket Logo">
+</header>
+
+<div class="banner">
+    <img src="images/cricket_banner.jpg" alt="Cricket Match Banner">
+</div>
+
+<div class="content">
+    <h2>🏆 Latest Match Highlight</h2>
+    <p><strong>India vs Australia</strong> | 25th June 2025</p>
+    <p><strong>Final Score:</strong> India 325/6 (50 overs) | Australia 280 all out (48.3 overs)</p>
+    <p><strong>Result:</strong> India won by 45 runs 🎉</p>
+
+    <h2>🌟 Top Players of the Match</h2>
+    <ul>
+        <li><strong>Virat Kohli</strong> — 85 runs (78 balls)</li>
+        <li><strong>Jasprit Bumrah</strong> — 3 wickets for 42 runs</li>
+        <li><strong>Glenn Maxwell</strong> — 60 runs (45 balls)</li>
+        <li><strong>Hardik Pandya</strong> — 35 runs + 2 wickets</li>
+    </ul>
+
+    <h2>📖 What is Cricket?</h2>
+    <p>
+        Cricket is a thrilling, strategic bat-and-ball game played between two teams of eleven players on a lush green field, centered around a 22-yard pitch.
+        Popular in countries like India, England, Australia, and Pakistan, cricket brings together diverse cultures and millions of passionate fans.
+    </p>
+    <p>
+        From fast-paced T20 matches to five-day Tests, cricket offers a variety of formats that combine excitement, endurance, and tactical brilliance.
+        Major tournaments like the ICC Cricket World Cup and IPL have made the sport a global spectacle.
+    </p>
+</div>
+
+<footer>
+    &copy; 2025 Cricket Fan Page | Designed by S. Pavithra ❤️
+</footer>
+
+</body>
+</html>
